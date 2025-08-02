@@ -1,0 +1,5 @@
+fare prima commit in develop senza fare il push
+spostarmi sul brach main --> git checkout main
+unire i cambiamente --> git merge develop
+aggiornare GitHub pages --> npm run build, npm run deploy
+e poi salvare modifiche --> git push origin main/develop
