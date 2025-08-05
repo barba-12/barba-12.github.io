@@ -9,7 +9,7 @@ import './index.css'   // global styles: font, body, background
 import './style.css'   // stili per navbar e personalizzazioni
 
 ReactDOM.createRoot(document.getElementById('root')).render(
-  <BrowserRouter>
+  <React.StrictMode>
     <App />
-  </BrowserRouter>
+  </React.StrictMode>
 )
