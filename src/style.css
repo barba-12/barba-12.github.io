@@ -11,10 +11,10 @@ html {
     rgba(12, 10, 22, 0.863)
   );
 
-  --imp-text-color: #c770f0;
+  --imp-text-color: #f83636;
 }
 
-.purple {
+.red {
   color: var(--imp-text-color) !important;
 }
 
@@ -62,7 +62,7 @@ button:focus {
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: rgba(178, 121, 216, 0.959);
+  background: rgba(85, 57, 104, 0.959);
   border-radius: 12px;
 }
 
@@ -288,17 +288,17 @@ button:focus {
 }
 
 .main-name {
-  color: #cd5ff8;
+  color: #f83636;
 }
 
 .Typewriter__wrapper {
   font-size: 2.2em !important;
-  color: #be6adf !important;
+  color: #f83636 !important;
   font-weight: 600 !important;
 }
 .Typewriter__cursor {
   font-size: 2.4em !important;
-  color: #b562d6 !important;
+  color: #f83636 !important;
 }
 
 @media (max-width: 767px) {
@@ -378,7 +378,7 @@ button:focus {
   width: 100%;
   height: 100%;
   border-radius: 50%;
-  background: #68187a;
+  background: #7A1818;
   transition: 0.5s;
   transform: scale(0.9);
   z-index: -1;
@@ -386,13 +386,13 @@ button:focus {
 
 .home-social-icons:hover::before {
   transform: scale(1.1);
-  box-shadow: 0 0 15px #801f95;
+  box-shadow: 0 0 15px #951F1F;
 }
 
 .home-social-icons:hover {
   color: #87209e;
-  box-shadow: 0 0 5px #87209e;
-  text-shadow: 0 0 2px #87209e;
+  box-shadow: 0 0 5px 	#9E2020;
+  text-shadow: 0 0 2px 	#9E2020;
 }
 
 .social-icons {
@@ -402,7 +402,7 @@ button:focus {
 }
 
 .icon-colour {
-  color: #700c86 !important;
+  color: #861C0C !important;
 }
 
 /* --------- */
