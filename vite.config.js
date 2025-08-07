@@ -3,6 +3,6 @@ import react from '@vitejs/plugin-react'
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: '/personal-web-site/',
+  base: '/barba-12.github.io/',
   plugins: [react()],
 })
