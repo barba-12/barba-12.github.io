@@ -21,7 +21,7 @@ function ResumeNew() {
         <Particle />
         <Row className="resume">
           <Document file={pdf} className="d-flex justify-content-center">
-            <Page pageNumber={1} scale={width > 786 ? 1.2 : 0.7} />
+            <Page pageNumber={1} scale={width > 786 ? 1.2 : 0.6} />
           </Document>
         </Row>
 
